@@ -7,3 +7,7 @@
 while문을 통해 EOF(end of file)까지 문자를 읽고 화면에 출력합니다.
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDVfMTQy/MDAxNjg1OTczNjQ0NDI4.w0srjSKzYVpOhC0TV2eOFbyyX9hD7p-NQSnjHw-xeWYg.s652GpQ4lO-UkK81sTQiTYYASj7j49RrYSG9z-YRh_og.PNG.saehee0427/image.png)
+
+# copy.c
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMTQw/MDAxNjg1OTc3NDIxNDE2._N467Gc5XNJRE6EydVh5wFVr35Zf8iaAtAyosCYzIe8g.YgFoSn-O_8J9KPP_Mo_Louitn-boP9xOdZ_BpPK5nbwg.PNG.saehee0427/image.png)
