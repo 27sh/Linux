@@ -21,3 +21,11 @@ cp과 동일 역할을 하는 명령어입니다.
 아래 이미지에서 a.txt 가 복사된 것을 확인할 수 있습니다.
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMTQw/MDAxNjg1OTc3NDIxNDE2._N467Gc5XNJRE6EydVh5wFVr35Zf8iaAtAyosCYzIe8g.YgFoSn-O_8J9KPP_Mo_Louitn-boP9xOdZ_BpPK5nbwg.PNG.saehee0427/image.png)
+
+# ls.c
+
+현 파일에 문서가 없다면 프린트 할 수 있는 문서가 없음을 알리는 문구를 프린트 합니다.
+
+문서가 있다면 해당 문서의 이름을 전부 출력합니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMjI5/MDAxNjg2MDQyOTEwNDc5.-3NUku8WfTjZGi-yh_Gy29w1Rnk5kNx60uW4gFROxBYg.-srM5rGVHs12vRUwfyGrEKFIq-tciNZsKybYTayJz4cg.PNG.saehee0427/image.png)
