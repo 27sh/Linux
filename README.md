@@ -41,3 +41,16 @@ lstat 함수는 실패 또는 에러 시 -1을 return 하기 때문에 만약 ls
 성공 시, 각각의 파일 정보를 읽어들여 분류한 정보를 프린트합니다.
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMjIy/MDAxNjg2MDQ5NjExOTM4.vHJ3xDKpIAgNk057cusVBsY5yQUuiyWbcTpG_aLBKg4g.ifKUbOS89A06NmZOw397Dulkikmy_2BUbtKMqEUkS1cg.PNG.saehee0427/image.png)
+
+# fchmod.c
+
+(원하는 권한 8진수로 입력) + (접근 권한을 바꾸려는 파일)의 형식으로 입력합니다.
+
+만약 실패하면(return 값이 -1이 나오면) error 처리를 합니다.
+
+![이미지](https://postfiles.pstatic.net/MjAyMzA2MDZfMjMg/MDAxNjg2MDU1MTM3NDc1.NlW6ngV5XZCSIeDWFalZR6ALReI0k3wBDQ5-C-QAmHEg.AqglXxrHPXdJ5nWQF9yA20_a_guIH2wIiDgJ6XXiP08g.PNG.saehee0427/image.png?type=w966)
+
+
+
+
+
