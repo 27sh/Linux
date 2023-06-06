@@ -29,3 +29,15 @@ cp과 동일 역할을 하는 명령어입니다.
 문서가 있다면 해당 문서의 이름을 전부 출력합니다.
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMjI5/MDAxNjg2MDQyOTEwNDc5.-3NUku8WfTjZGi-yh_Gy29w1Rnk5kNx60uW4gFROxBYg.-srM5rGVHs12vRUwfyGrEKFIq-tciNZsKybYTayJz4cg.PNG.saehee0427/image.png)
+
+# ftype.c
+
+lstat 함수를 사용하여 파일 정보를 읽습니다.
+
+문자열을 만들어 주소를 넘겨주는 방식을 사용합니다.
+
+lstat 함수는 실패 또는 에러 시 -1을 return 하기 때문에 만약 lstat 함수가 0보다 작으면 perror를 띄웁니다.
+
+성공 시, 각각의 파일 정보를 읽어들여 분류한 정보를 프린트합니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMjIy/MDAxNjg2MDQ5NjExOTM4.vHJ3xDKpIAgNk057cusVBsY5yQUuiyWbcTpG_aLBKg4g.ifKUbOS89A06NmZOw397Dulkikmy_2BUbtKMqEUkS1cg.PNG.saehee0427/image.png)
