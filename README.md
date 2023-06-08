@@ -60,5 +60,13 @@ char \*buf에 작업 중인 디렉토리의 이름을 담고, size_t size로 버
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDhfMTk3/MDAxNjg2MjE3MTU4Njky.NdkToKhOX86eABJMLrA34pWpCW4TVYdi-aqdBpxbTPQg.3EMBb7d4aIEK_PsICtz_NbGxQYfavUHZWqqAjQu29N8g.PNG.saehee0427/image.png)
 
+# head.c
+
+입력한 파일이 디렉토리 안에 없다면 "파일을 열 수 없습니다" 를 출력합니다.
+
+while문을 이용해 지정한 라인 수 까지 or NULL이 아닐 때까지 파일을 읽어 라인대로 프린트합니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDhfNjMg/MDAxNjg2MjI3OTU2NzY1.zOsq78jkQlDx1Nt7mlvigKpS8ALnTjojxRQzwlvNHB8g.Uc0r_f5l8GSVUBg15k-fvxRz200FpHp1ya7CwOoJeTgg.PNG.saehee0427/image.png)
+
 
 
