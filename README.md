@@ -50,7 +50,15 @@ lstat 함수는 실패 또는 에러 시 -1을 return 하기 때문에 만약 ls
 
 ![이미지](https://postfiles.pstatic.net/MjAyMzA2MDZfMjMg/MDAxNjg2MDU1MTM3NDc1.NlW6ngV5XZCSIeDWFalZR6ALReI0k3wBDQ5-C-QAmHEg.AqglXxrHPXdJ5nWQF9yA20_a_guIH2wIiDgJ6XXiP08g.PNG.saehee0427/image.png?type=w966)
 
+# pwd.c
 
+char \*buf에 작업 중인 디렉토리의 이름을 담고, size_t size로 버퍼의 크기를 정해줍니다.
+
+작업 중인 디렉토리 이름을 가져오는 함수인 getcwd를 사용하여 pwd를 구현합니다.
+
+성공 시 현재 작업 중인 디렉토리를 반환합니다. 실패 시 NULL 값을 반환하게 됩니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDhfMTk3/MDAxNjg2MjE3MTU4Njky.NdkToKhOX86eABJMLrA34pWpCW4TVYdi-aqdBpxbTPQg.3EMBb7d4aIEK_PsICtz_NbGxQYfavUHZWqqAjQu29N8g.PNG.saehee0427/image.png)
 
 
 
