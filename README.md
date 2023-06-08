@@ -68,5 +68,14 @@ while문을 이용해 지정한 라인 수 까지 or NULL이 아닐 때까지 �
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDhfNjMg/MDAxNjg2MjI3OTU2NzY1.zOsq78jkQlDx1Nt7mlvigKpS8ALnTjojxRQzwlvNHB8g.Uc0r_f5l8GSVUBg15k-fvxRz200FpHp1ya7CwOoJeTgg.PNG.saehee0427/image.png)
 
+# tail.c
+
+큰 틀은 head.c와 유사합니다.
+
+파일을 메모리에 가져와 역순으로 읽어서 출력합니다.
+
+당연하게도... 역순으로 출력됩니다...
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDhfMjg3/MDAxNjg2MjMyNDUyODk4._7l13lRPqUQEd93LK-OQk7EU1P1PeUq5w6rdB3KuLSgg.hS0Rec0gccIL2dDfnlsKhxab3r_lfXfHoNaFpy6m1a0g.PNG.saehee0427/image.png)
 
 
