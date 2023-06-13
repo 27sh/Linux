@@ -41,11 +41,21 @@ cp과 동일 역할을 하는 명령어입니다.
 
 # ls.c
 
-현 파일에 문서가 없다면 프린트 할 수 있는 문서가 없음을 알리는 문구를 프린트 합니다.
+현재 디렉토리를 얻기 위해 getcwd 함수를 사용하고, 디렉토리를 열기 위해 opendir 함수를 사용합니다.
 
-문서가 있다면 해당 문서의 이름을 전부 출력합니다.
+디렉토리를 열지 못한 경우에는 오류 메시지를 출력하고 프로그램을 종료합니다.
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDZfMjI5/MDAxNjg2MDQyOTEwNDc5.-3NUku8WfTjZGi-yh_Gy29w1Rnk5kNx60uW4gFROxBYg.-srM5rGVHs12vRUwfyGrEKFIq-tciNZsKybYTayJz4cg.PNG.saehee0427/image.png)
+
+# ls2.c
+
+readdir 함수를 사용하여 디렉토리에서 항목을 하나씩 읽어옵니다.
+
+항목의 개수를 세는 동시에 동적으로 할당된 배열에 디렉토리 항목들을 저장합니다.
+
+그 후, compare 함수를 사용하여 디렉토리 항목들을 알파벳 순으로 정렬합니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MTNfNTgg/MDAxNjg2NjMxMDYzMzQ0.uc9Uz-4p3mCpg7o8biyfon-ElQ05UAwSp9fL8KofOyEg.ABU7ok2AZgNWlOf__H3iWEShf-e1pQP-Bf2bGLyzAuIg.PNG.saehee0427/image.png)
 
 # ftype.c
 
