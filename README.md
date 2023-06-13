@@ -1,4 +1,4 @@
-# cat.c
+![image](https://github.com/27sh/Linux/assets/120109008/59db1a42-2d7d-426e-b3a5-57e88f829a1d)# cat.c
 
 만약 명령줄 인수가 없다면 표준 입력을 사용합니다.
 
@@ -102,6 +102,12 @@ while문을 이용해 지정한 라인 수 까지 or NULL이 아닐 때까지 �
 아무 것도 작성하지 않을 시 안내 문구를 출력합니다.
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDlfMjc0/MDAxNjg2MjQwNzc0ODI1.x40MEBP_hDe7Kob8yJkcuoZ7iBZjFDF_UNIk6WC0o18g.qLeBQFcc3WSmOBRYwigAh7nz9eZNz4rBMTYJ2yhE9ykg.PNG.saehee0427/image.png)
+
+# clear.c
+
+clear와 같은 기능을 합니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MTNfMTE5/MDAxNjg2NjQ1MDkyMTE0.5ThlGTcgAMKdF1Bk2-Vb9NuNlSk__FNPycuVcF7xbLcg.4bGIHcbXck0cCQvr9o_R-5hdjdS--I9U6VdrzmP4vpgg.PNG.saehee0427/image.png)
 
 # tail.c
 
