@@ -8,6 +8,23 @@ while문을 통해 EOF(end of file)까지 문자를 읽고 화면에 출력합�
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzA2MDVfMTQy/MDAxNjg1OTczNjQ0NDI4.w0srjSKzYVpOhC0TV2eOFbyyX9hD7p-NQSnjHw-xeWYg.s652GpQ4lO-UkK81sTQiTYYASj7j49RrYSG9z-YRh_og.PNG.saehee0427/image.png)
 
+# cat3.c
+
+-n 옵션과 -A 옵션이 구현된 코드입니다.
+
+-A 옵션: 이 옵션을 사용하면 파일 내용이 출력될 때, 제어 문자들을 해당하는 표기로 출력합니다. 예를 들어, '\t'는 '^I'로, '\n'은 '$'로 표기됩니다.
+
+-n 옵션: 이 옵션을 사용하면 각 줄에 줄 번호가 매겨집니다.
+
+코드는 주어진 옵션에 따라 파일을 읽고, 파일 내용을 한 글자씩 읽어서 처리합니다.
+
+읽은 글자가 제어 문자인 경우에는 해당하는 표기로 출력하고, 제어 문자가 아닌 경우에는 그대로 출력합니다.
+
+줄 바꿈 문자('\n')를 만나면 줄 번호를 출력합니다.
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzA2MTNfMTg0/MDAxNjg2NjI5NTk3NDI5.By1F9zkDHTcj0ZQ4LHaKKXMNWDDl9mFPAbK6EBKhmpAg.7BTgEbMepCgXXJqpaU5sjy1aekE-xB1R4j1l0aIXAvAg.PNG.saehee0427/image.png)
+
+
 # copy.c
 
 cp과 동일 역할을 하는 명령어입니다.
